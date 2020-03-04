@@ -2,22 +2,18 @@
 title: "ICREEE Weekly Stats Discussion"
 author: "Sajesh Vijayan"
 date: "4 March 2020"
-output:
-  md_document:
-    variant: markdown_github
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(echo = TRUE)
-devtools::source_gist("c83e078bf8c81b035e32c3fc0cf04ee8", 
-                      filename = 'render_toc.R')
+
 ```
 
-## Table of Contents
-
-```{r toc, echo=FALSE} 
-render_toc("IWSD.Rmd")
-```
 
 ## 21 Feb, 2020: Introduction to linear regression
 ### Video link
